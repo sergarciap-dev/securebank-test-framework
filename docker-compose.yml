@@ -1,0 +1,24 @@
+version: '3.8'
+services:
+  selenium-chrome:
+    image: selenium/standalone-chrome:4.18.1-20240326
+    ports:
+      - "4444:4444"
+      - "7900:7900"
+    environment:
+      - SE_VNC_NO_PASSWORD=1
+    shm_size: 2gb
+
+  postgres:
+    image: postgres:16
+    environment:
+      POSTGRES_USER: securebank
+      POSTGRES_PASSWORD: secure123
+      POSTGRES_DB: securebank_test
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+
+volumes:
+  pgdata:

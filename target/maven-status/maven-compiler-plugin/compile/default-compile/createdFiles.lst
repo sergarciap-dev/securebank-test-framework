@@ -1,0 +1,5 @@
+securebank\pages\LoginPage.class
+securebank\config\ConfigManager.class
+securebank\pages\InventoryPage.class
+securebank\utils\DriverManager.class
+securebank\pages\BasePage.class
