@@ -61,4 +61,35 @@ securebank-test-framework/
 ├── README.md
 └── .gitignore
 ```
+## 🚀 Quick Start
+
+### Prerrequisitos
+- Java 17+
+- Maven 3.9+
+- Chrome/Firefox/Edge
+
+### Clonar y ejecutar
+```bash
+git clone https://github.com/sergarciap-dev/securebank-test-framework.git
+cd securebank-test-framework
+mvn clean test
+```
+
+### Ejecutar por tag
+```bash
+mvn test -Dcucumber.filter.tags="@smoke"
+mvn test -Dcucumber.filter.tags="@security"
+mvn test -Dcucumber.filter.tags="@regression"
+```
+
+### Ver reportes
+Abre `target/cucumber-reports/report.html` en tu navegador
+
+## 👤 Autor
+**Sergio García Puente**
+- 🎓 Ingeniero en Informática - Duoc UC
+- 🔍 Ex QA Tester & Automatizador - Accenture (Banco BCI)
+- 🛡️ Diplomado en Ciberseguridad y Ciberdefensa
+- 🔗 [LinkedIn](https://linkedin.com/in/sergio-garc%C3%ADa-puente)
+- 📧 sergiogpuente88@gmail.com
 
