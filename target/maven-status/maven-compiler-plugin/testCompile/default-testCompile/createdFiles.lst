@@ -1,3 +1,5 @@
+securebank\api\ApiClient.class
 securebank\runners\TestRunner.class
 securebank\stepdefinitions\LoginSteps.class
+securebank\stepdefinitions\ApiSteps.class
 securebank\hooks\Hooks.class

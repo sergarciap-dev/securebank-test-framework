@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Surefire test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>6/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>7/2/0</td>
 </tr><tr>
-<td>Started on:</td><td>Mon Jul 27 19:49:46 GMT-04:00 2026</td>
+<td>Started on:</td><td>Mon Jul 27 23:22:12 GMT-04:00 2026</td>
 </tr>
-<tr><td>Total time:</td><td>8 seconds (8319 ms)</td>
+<tr><td>Total time:</td><td>13 seconds (13771 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,6 +67,53 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='securebank.runners.TestRunner.runScenario()'><b>runScenario</b><br>Test class: securebank.runners.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Login API exitoso", "API de SecureBank"</td>
+<td><div><pre>java.lang.AssertionError: expected [200] but found [401]
+	at securebank.stepdefinitions.ApiSteps.verifyStatus(ApiSteps.java:21)
+	at ✽.recibo status 200(file:///D:/PROYECTOS/securebank-test-framework/src/test/resources/features/api.feature:11)
+... Removed 7 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace101149798", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace101149798'><pre>java.lang.AssertionError: expected [200] but found [401]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:1419)
+	at org.testng.Assert.assertEquals(Assert.java:1383)
+	at org.testng.Assert.assertEquals(Assert.java:1429)
+	at securebank.stepdefinitions.ApiSteps.verifyStatus(ApiSteps.java:21)
+	at ✽.recibo status 200(file:///D:/PROYECTOS/securebank-test-framework/src/test/resources/features/api.feature:11)
+</pre></div></td>
+<td>2</td>
+<td>securebank.runners.TestRunner@4b213651</td></tr>
+<tr>
+<td title='securebank.runners.TestRunner.runScenario()'><b>runScenario</b><br>Test class: securebank.runners.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Consulta de saldo API", "API de SecureBank"</td>
+<td><div><pre>java.lang.AssertionError: expected [200] but found [401]
+	at securebank.stepdefinitions.ApiSteps.verifyStatus(ApiSteps.java:21)
+	at ✽.recibo status 200(file:///D:/PROYECTOS/securebank-test-framework/src/test/resources/features/api.feature:23)
+... Removed 7 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1626241617", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1626241617'><pre>java.lang.AssertionError: expected [200] but found [401]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:1419)
+	at org.testng.Assert.assertEquals(Assert.java:1383)
+	at org.testng.Assert.assertEquals(Assert.java:1429)
+	at securebank.stepdefinitions.ApiSteps.verifyStatus(ApiSteps.java:21)
+	at ✽.recibo status 200(file:///D:/PROYECTOS/securebank-test-framework/src/test/resources/features/api.feature:23)
+</pre></div></td>
+<td>2</td>
+<td>securebank.runners.TestRunner@4b213651</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -77,6 +124,16 @@ function toggleAllBoxes() {
 </tr>
 <tr>
 <td title='securebank.runners.TestRunner.runScenario()'><b>runScenario</b><br>Test class: securebank.runners.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validar múltiples credenciales", "Login de usuarios en SecureBank"</td>
+<td></td>
+<td>1</td>
+<td>securebank.runners.TestRunner@4b213651</td></tr>
+<tr>
+<td title='securebank.runners.TestRunner.runScenario()'><b>runScenario</b><br>Test class: securebank.runners.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validar múltiples credenciales", "Login de usuarios en SecureBank"</td>
+<td></td>
+<td>1</td>
+<td>securebank.runners.TestRunner@4b213651</td></tr>
+<tr>
+<td title='securebank.runners.TestRunner.runScenario()'><b>runScenario</b><br>Test class: securebank.runners.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Login fallido con usuario bloqueado", "Login de usuarios en SecureBank"</td>
 <td></td>
 <td>1</td>
 <td>securebank.runners.TestRunner@4b213651</td></tr>
@@ -93,15 +150,10 @@ function toggleAllBoxes() {
 <tr>
 <td title='securebank.runners.TestRunner.runScenario()'><b>runScenario</b><br>Test class: securebank.runners.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Login exitoso con credenciales válidas", "Login de usuarios en SecureBank"</td>
 <td></td>
-<td>2</td>
-<td>securebank.runners.TestRunner@4b213651</td></tr>
-<tr>
-<td title='securebank.runners.TestRunner.runScenario()'><b>runScenario</b><br>Test class: securebank.runners.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validar múltiples credenciales", "Login de usuarios en SecureBank"</td>
-<td></td>
 <td>1</td>
 <td>securebank.runners.TestRunner@4b213651</td></tr>
 <tr>
-<td title='securebank.runners.TestRunner.runScenario()'><b>runScenario</b><br>Test class: securebank.runners.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Login fallido con usuario bloqueado", "Login de usuarios en SecureBank"</td>
+<td title='securebank.runners.TestRunner.runScenario()'><b>runScenario</b><br>Test class: securebank.runners.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "API rechaza SQL Injection", "API de SecureBank"</td>
 <td></td>
 <td>1</td>
 <td>securebank.runners.TestRunner@4b213651</td></tr>

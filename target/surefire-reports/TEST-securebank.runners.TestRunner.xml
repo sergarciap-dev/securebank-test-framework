@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="securebank.runners.TestRunner" time="8.769" tests="6" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="securebank.runners.TestRunner" time="14.226" tests="9" errors="0" skipped="0" failures="2">
   <properties>
     <property name="java.specification.version" value="26"/>
-    <property name="webdriver.chrome.driver" value="C:\Users\sergi\.cache\selenium\chromedriver\win64\149.0.7827.155\chromedriver.exe"/>
+    <property name="webdriver.chrome.driver" value="C:\Users\sergi\.cache\selenium\chromedriver\win64\150.0.7871.124\chromedriver.exe"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="java.class.path" value="D:\PROYECTOS\securebank-test-framework\target\test-classes;D:\PROYECTOS\securebank-test-framework\target\classes;C:\Users\sergi\.m2\repository\org\seleniumhq\selenium\selenium-java\4.18.1\selenium-java-4.18.1.jar;C:\Users\sergi\.m2\repository\org\seleniumhq\selenium\selenium-api\4.18.1\selenium-api-4.18.1.jar;C:\Users\sergi\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.18.1\selenium-chrome-driver-4.18.1.jar;C:\Users\sergi\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\sergi\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.18.1\selenium-chromium-driver-4.18.1.jar;C:\Users\sergi\.m2\repository\org\seleniumhq\selenium\selenium-json\4.18.1\selenium-json-4.18.1.jar;C:\Users\sergi\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.18.1\selenium-manager-4.18.1.jar;C:\Users\sergi\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v120\4.18.1\selenium-devtools-v120-4.18.1.jar;C:\Users\sergi\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v121\4.18.1\selenium-devtools-v121-4.18.1.jar;C:\Users\sergi\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v122\4.18.1\selenium-devtools-v122-4.18.1.jar;C:\Users\sergi\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.18.1\selenium-devtools-v85-4.18.1.jar;C:\Users\sergi\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.18.1\selenium-edge-driver-4.18.1.jar;C:\Users\sergi\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.18.1\selenium-firefox-driver-4.18.1.jar;C:\Users\sergi\.m2\repository\org\seleniumhq\selenium\selenium-http\4.18.1\selenium-http-4.18.1.jar;C:\Users\sergi\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\sergi\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.18.1\selenium-ie-driver-4.18.1.jar;C:\Users\sergi\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.18.1\selenium-remote-driver-4.18.1.jar;C:\Users\sergi\.m2\repository\com\google\guava\guava\33.0.0-jre\guava-33.0.0-jre.jar;C:\Users\sergi\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\sergi\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\sergi\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\sergi\.m2\repository\org\checkerframework\checker-qual\3.41.0\checker-qual-3.41.0.jar;C:\Users\sergi\.m2\repository\com\google\errorprone\error_prone_annotations\2.23.0\error_prone_annotations-2.23.0.jar;C:\Users\sergi\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;C:\Users\sergi\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.23.1-alpha\opentelemetry-semconv-1.23.1-alpha.jar;C:\Users\sergi\.m2\repository\io\opentelemetry\opentelemetry-api\1.35.0\opentelemetry-api-1.35.0.jar;C:\Users\sergi\.m2\repository\io\opentelemetry\opentelemetry-context\1.35.0\opentelemetry-context-1.35.0.jar;C:\Users\sergi\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.35.0\opentelemetry-exporter-logging-1.35.0.jar;C:\Users\sergi\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.35.0\opentelemetry-sdk-common-1.35.0.jar;C:\Users\sergi\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.35.0\opentelemetry-sdk-extension-autoconfigure-spi-1.35.0.jar;C:\Users\sergi\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.35.0\opentelemetry-sdk-extension-autoconfigure-1.35.0.jar;C:\Users\sergi\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.35.0-alpha\opentelemetry-api-events-1.35.0-alpha.jar;C:\Users\sergi\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.35.0\opentelemetry-sdk-trace-1.35.0.jar;C:\Users\sergi\.m2\repository\io\opentelemetry\opentelemetry-extension-incubator\1.35.0-alpha\opentelemetry-extension-incubator-1.35.0-alpha.jar;C:\Users\sergi\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.35.0\opentelemetry-sdk-1.35.0.jar;C:\Users\sergi\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.35.0\opentelemetry-sdk-metrics-1.35.0.jar;C:\Users\sergi\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.35.0\opentelemetry-sdk-logs-1.35.0.jar;C:\Users\sergi\.m2\repository\net\bytebuddy\byte-buddy\1.14.12\byte-buddy-1.14.12.jar;C:\Users\sergi\.m2\repository\org\seleniumhq\selenium\selenium-os\4.18.1\selenium-os-4.18.1.jar;C:\Users\sergi\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\sergi\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.18.1\selenium-safari-driver-4.18.1.jar;C:\Users\sergi\.m2\repository\org\seleniumhq\selenium\selenium-support\4.18.1\selenium-support-4.18.1.jar;C:\Users\sergi\.m2\repository\io\github\bonigarcia\webdrivermanager\5.7.0\webdrivermanager-5.7.0.jar;C:\Users\sergi\.m2\repository\org\slf4j\slf4j-api\2.0.12\slf4j-api-2.0.12.jar;C:\Users\sergi\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\sergi\.m2\repository\com\github\docker-java\docker-java\3.3.5\docker-java-3.3.5.jar;C:\Users\sergi\.m2\repository\com\github\docker-java\docker-java-core\3.3.5\docker-java-core-3.3.5.jar;C:\Users\sergi\.m2\repository\com\github\docker-java\docker-java-api\3.3.5\docker-java-api-3.3.5.jar;C:\Users\sergi\.m2\repository\org\bouncycastle\bcpkix-jdk18on\1.76\bcpkix-jdk18on-1.76.jar;C:\Users\sergi\.m2\repository\org\bouncycastle\bcprov-jdk18on\1.76\bcprov-jdk18on-1.76.jar;C:\Users\sergi\.m2\repository\org\bouncycastle\bcutil-jdk18on\1.76\bcutil-jdk18on-1.76.jar;C:\Users\sergi\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\sergi\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.5\docker-java-transport-httpclient5-3.3.5.jar;C:\Users\sergi\.m2\repository\com\github\docker-java\docker-java-transport\3.3.5\docker-java-transport-3.3.5.jar;C:\Users\sergi\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\sergi\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\sergi\.m2\repository\org\apache\commons\commons-lang3\3.14.0\commons-lang3-3.14.0.jar;C:\Users\sergi\.m2\repository\org\apache\commons\commons-compress\1.26.0\commons-compress-1.26.0.jar;C:\Users\sergi\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\sergi\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\sergi\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\sergi\.m2\repository\io\cucumber\cucumber-java\7.15.0\cucumber-java-7.15.0.jar;C:\Users\sergi\.m2\repository\io\cucumber\cucumber-core\7.15.0\cucumber-core-7.15.0.jar;C:\Users\sergi\.m2\repository\io\cucumber\cucumber-gherkin\7.15.0\cucumber-gherkin-7.15.0.jar;C:\Users\sergi\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.15.0\cucumber-gherkin-messages-7.15.0.jar;C:\Users\sergi\.m2\repository\io\cucumber\gherkin\26.2.0\gherkin-26.2.0.jar;C:\Users\sergi\.m2\repository\io\cucumber\messages\22.0.0\messages-22.0.0.jar;C:\Users\sergi\.m2\repository\io\cucumber\tag-expressions\6.0.0\tag-expressions-6.0.0.jar;C:\Users\sergi\.m2\repository\io\cucumber\cucumber-expressions\17.0.1\cucumber-expressions-17.0.1.jar;C:\Users\sergi\.m2\repository\io\cucumber\datatable\7.15.0\datatable-7.15.0.jar;C:\Users\sergi\.m2\repository\io\cucumber\cucumber-plugin\7.15.0\cucumber-plugin-7.15.0.jar;C:\Users\sergi\.m2\repository\io\cucumber\docstring\7.15.0\docstring-7.15.0.jar;C:\Users\sergi\.m2\repository\io\cucumber\html-formatter\20.4.0\html-formatter-20.4.0.jar;C:\Users\sergi\.m2\repository\io\cucumber\junit-xml-formatter\0.2.0\junit-xml-formatter-0.2.0.jar;C:\Users\sergi\.m2\repository\io\cucumber\ci-environment\10.0.0\ci-environment-10.0.0.jar;C:\Users\sergi\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\sergi\.m2\repository\io\cucumber\cucumber-testng\7.15.0\cucumber-testng-7.15.0.jar;C:\Users\sergi\.m2\repository\org\testng\testng\7.9.0\testng-7.9.0.jar;C:\Users\sergi\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\sergi\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\sergi\.m2\repository\io\rest-assured\rest-assured\5.4.0\rest-assured-5.4.0.jar;C:\Users\sergi\.m2\repository\org\apache\groovy\groovy\4.0.16\groovy-4.0.16.jar;C:\Users\sergi\.m2\repository\org\apache\groovy\groovy-xml\4.0.16\groovy-xml-4.0.16.jar;C:\Users\sergi\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\sergi\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\sergi\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\sergi\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\sergi\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\sergi\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\sergi\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\sergi\.m2\repository\io\rest-assured\json-path\5.4.0\json-path-5.4.0.jar;C:\Users\sergi\.m2\repository\org\apache\groovy\groovy-json\4.0.16\groovy-json-4.0.16.jar;C:\Users\sergi\.m2\repository\io\rest-assured\rest-assured-common\5.4.0\rest-assured-common-5.4.0.jar;C:\Users\sergi\.m2\repository\io\rest-assured\xml-path\5.4.0\xml-path-5.4.0.jar;C:\Users\sergi\.m2\repository\io\qameta\allure\allure-testng\2.25.0\allure-testng-2.25.0.jar;C:\Users\sergi\.m2\repository\io\qameta\allure\allure-java-commons\2.25.0\allure-java-commons-2.25.0.jar;C:\Users\sergi\.m2\repository\io\qameta\allure\allure-model\2.25.0\allure-model-2.25.0.jar;C:\Users\sergi\.m2\repository\io\qameta\allure\allure-test-filter\2.25.0\allure-test-filter-2.25.0.jar;C:\Users\sergi\.m2\repository\ch\qos\logback\logback-classic\1.5.6\logback-classic-1.5.6.jar;C:\Users\sergi\.m2\repository\ch\qos\logback\logback-core\1.5.6\logback-core-1.5.6.jar;C:\Users\sergi\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.16.1\jackson-databind-2.16.1.jar;C:\Users\sergi\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.16.1\jackson-annotations-2.16.1.jar;C:\Users\sergi\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.16.1\jackson-core-2.16.1.jar;C:\Users\sergi\.m2\repository\commons-io\commons-io\2.15.1\commons-io-2.15.1.jar;"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="CL"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-26.0.1\bin"/>
-    <property name="sun.java.command" value="C:\Users\sergi\AppData\Local\Temp\surefire2288666399628828497\surefirebooter-20260727194945775_3.jar C:\Users\sergi\AppData\Local\Temp\surefire2288666399628828497 2026-07-27T19-49-45_680-jvmRun1 surefire-20260727194945775_1tmp surefire_0-20260727194945775_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\sergi\AppData\Local\Temp\surefire4842800291679647723\surefirebooter-20260727232211989_3.jar C:\Users\sergi\AppData\Local\Temp\surefire4842800291679647723 2026-07-27T23-22-11_899-jvmRun1 surefire-20260727232211989_1tmp surefire_0-20260727232211989_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="D:\PROYECTOS\securebank-test-framework\target\test-classes;D:\PROYECTOS\securebank-test-framework\target\classes;C:\Users\sergi\.m2\repository\org\seleniumhq\selenium\selenium-java\4.18.1\selenium-java-4.18.1.jar;C:\Users\sergi\.m2\repository\org\seleniumhq\selenium\selenium-api\4.18.1\selenium-api-4.18.1.jar;C:\Users\sergi\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.18.1\selenium-chrome-driver-4.18.1.jar;C:\Users\sergi\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\sergi\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.18.1\selenium-chromium-driver-4.18.1.jar;C:\Users\sergi\.m2\repository\org\seleniumhq\selenium\selenium-json\4.18.1\selenium-json-4.18.1.jar;C:\Users\sergi\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.18.1\selenium-manager-4.18.1.jar;C:\Users\sergi\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v120\4.18.1\selenium-devtools-v120-4.18.1.jar;C:\Users\sergi\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v121\4.18.1\selenium-devtools-v121-4.18.1.jar;C:\Users\sergi\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v122\4.18.1\selenium-devtools-v122-4.18.1.jar;C:\Users\sergi\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.18.1\selenium-devtools-v85-4.18.1.jar;C:\Users\sergi\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.18.1\selenium-edge-driver-4.18.1.jar;C:\Users\sergi\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.18.1\selenium-firefox-driver-4.18.1.jar;C:\Users\sergi\.m2\repository\org\seleniumhq\selenium\selenium-http\4.18.1\selenium-http-4.18.1.jar;C:\Users\sergi\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\sergi\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.18.1\selenium-ie-driver-4.18.1.jar;C:\Users\sergi\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.18.1\selenium-remote-driver-4.18.1.jar;C:\Users\sergi\.m2\repository\com\google\guava\guava\33.0.0-jre\guava-33.0.0-jre.jar;C:\Users\sergi\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\sergi\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\sergi\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\sergi\.m2\repository\org\checkerframework\checker-qual\3.41.0\checker-qual-3.41.0.jar;C:\Users\sergi\.m2\repository\com\google\errorprone\error_prone_annotations\2.23.0\error_prone_annotations-2.23.0.jar;C:\Users\sergi\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;C:\Users\sergi\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.23.1-alpha\opentelemetry-semconv-1.23.1-alpha.jar;C:\Users\sergi\.m2\repository\io\opentelemetry\opentelemetry-api\1.35.0\opentelemetry-api-1.35.0.jar;C:\Users\sergi\.m2\repository\io\opentelemetry\opentelemetry-context\1.35.0\opentelemetry-context-1.35.0.jar;C:\Users\sergi\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.35.0\opentelemetry-exporter-logging-1.35.0.jar;C:\Users\sergi\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.35.0\opentelemetry-sdk-common-1.35.0.jar;C:\Users\sergi\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.35.0\opentelemetry-sdk-extension-autoconfigure-spi-1.35.0.jar;C:\Users\sergi\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.35.0\opentelemetry-sdk-extension-autoconfigure-1.35.0.jar;C:\Users\sergi\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.35.0-alpha\opentelemetry-api-events-1.35.0-alpha.jar;C:\Users\sergi\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.35.0\opentelemetry-sdk-trace-1.35.0.jar;C:\Users\sergi\.m2\repository\io\opentelemetry\opentelemetry-extension-incubator\1.35.0-alpha\opentelemetry-extension-incubator-1.35.0-alpha.jar;C:\Users\sergi\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.35.0\opentelemetry-sdk-1.35.0.jar;C:\Users\sergi\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.35.0\opentelemetry-sdk-metrics-1.35.0.jar;C:\Users\sergi\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.35.0\opentelemetry-sdk-logs-1.35.0.jar;C:\Users\sergi\.m2\repository\net\bytebuddy\byte-buddy\1.14.12\byte-buddy-1.14.12.jar;C:\Users\sergi\.m2\repository\org\seleniumhq\selenium\selenium-os\4.18.1\selenium-os-4.18.1.jar;C:\Users\sergi\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\sergi\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.18.1\selenium-safari-driver-4.18.1.jar;C:\Users\sergi\.m2\repository\org\seleniumhq\selenium\selenium-support\4.18.1\selenium-support-4.18.1.jar;C:\Users\sergi\.m2\repository\io\github\bonigarcia\webdrivermanager\5.7.0\webdrivermanager-5.7.0.jar;C:\Users\sergi\.m2\repository\org\slf4j\slf4j-api\2.0.12\slf4j-api-2.0.12.jar;C:\Users\sergi\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\sergi\.m2\repository\com\github\docker-java\docker-java\3.3.5\docker-java-3.3.5.jar;C:\Users\sergi\.m2\repository\com\github\docker-java\docker-java-core\3.3.5\docker-java-core-3.3.5.jar;C:\Users\sergi\.m2\repository\com\github\docker-java\docker-java-api\3.3.5\docker-java-api-3.3.5.jar;C:\Users\sergi\.m2\repository\org\bouncycastle\bcpkix-jdk18on\1.76\bcpkix-jdk18on-1.76.jar;C:\Users\sergi\.m2\repository\org\bouncycastle\bcprov-jdk18on\1.76\bcprov-jdk18on-1.76.jar;C:\Users\sergi\.m2\repository\org\bouncycastle\bcutil-jdk18on\1.76\bcutil-jdk18on-1.76.jar;C:\Users\sergi\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\sergi\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.5\docker-java-transport-httpclient5-3.3.5.jar;C:\Users\sergi\.m2\repository\com\github\docker-java\docker-java-transport\3.3.5\docker-java-transport-3.3.5.jar;C:\Users\sergi\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\sergi\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\sergi\.m2\repository\org\apache\commons\commons-lang3\3.14.0\commons-lang3-3.14.0.jar;C:\Users\sergi\.m2\repository\org\apache\commons\commons-compress\1.26.0\commons-compress-1.26.0.jar;C:\Users\sergi\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\sergi\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\sergi\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\sergi\.m2\repository\io\cucumber\cucumber-java\7.15.0\cucumber-java-7.15.0.jar;C:\Users\sergi\.m2\repository\io\cucumber\cucumber-core\7.15.0\cucumber-core-7.15.0.jar;C:\Users\sergi\.m2\repository\io\cucumber\cucumber-gherkin\7.15.0\cucumber-gherkin-7.15.0.jar;C:\Users\sergi\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.15.0\cucumber-gherkin-messages-7.15.0.jar;C:\Users\sergi\.m2\repository\io\cucumber\gherkin\26.2.0\gherkin-26.2.0.jar;C:\Users\sergi\.m2\repository\io\cucumber\messages\22.0.0\messages-22.0.0.jar;C:\Users\sergi\.m2\repository\io\cucumber\tag-expressions\6.0.0\tag-expressions-6.0.0.jar;C:\Users\sergi\.m2\repository\io\cucumber\cucumber-expressions\17.0.1\cucumber-expressions-17.0.1.jar;C:\Users\sergi\.m2\repository\io\cucumber\datatable\7.15.0\datatable-7.15.0.jar;C:\Users\sergi\.m2\repository\io\cucumber\cucumber-plugin\7.15.0\cucumber-plugin-7.15.0.jar;C:\Users\sergi\.m2\repository\io\cucumber\docstring\7.15.0\docstring-7.15.0.jar;C:\Users\sergi\.m2\repository\io\cucumber\html-formatter\20.4.0\html-formatter-20.4.0.jar;C:\Users\sergi\.m2\repository\io\cucumber\junit-xml-formatter\0.2.0\junit-xml-formatter-0.2.0.jar;C:\Users\sergi\.m2\repository\io\cucumber\ci-environment\10.0.0\ci-environment-10.0.0.jar;C:\Users\sergi\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\sergi\.m2\repository\io\cucumber\cucumber-testng\7.15.0\cucumber-testng-7.15.0.jar;C:\Users\sergi\.m2\repository\org\testng\testng\7.9.0\testng-7.9.0.jar;C:\Users\sergi\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\sergi\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\sergi\.m2\repository\io\rest-assured\rest-assured\5.4.0\rest-assured-5.4.0.jar;C:\Users\sergi\.m2\repository\org\apache\groovy\groovy\4.0.16\groovy-4.0.16.jar;C:\Users\sergi\.m2\repository\org\apache\groovy\groovy-xml\4.0.16\groovy-xml-4.0.16.jar;C:\Users\sergi\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\sergi\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\sergi\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\sergi\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\sergi\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\sergi\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\sergi\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\sergi\.m2\repository\io\rest-assured\json-path\5.4.0\json-path-5.4.0.jar;C:\Users\sergi\.m2\repository\org\apache\groovy\groovy-json\4.0.16\groovy-json-4.0.16.jar;C:\Users\sergi\.m2\repository\io\rest-assured\rest-assured-common\5.4.0\rest-assured-common-5.4.0.jar;C:\Users\sergi\.m2\repository\io\rest-assured\xml-path\5.4.0\xml-path-5.4.0.jar;C:\Users\sergi\.m2\repository\io\qameta\allure\allure-testng\2.25.0\allure-testng-2.25.0.jar;C:\Users\sergi\.m2\repository\io\qameta\allure\allure-java-commons\2.25.0\allure-java-commons-2.25.0.jar;C:\Users\sergi\.m2\repository\io\qameta\allure\allure-model\2.25.0\allure-model-2.25.0.jar;C:\Users\sergi\.m2\repository\io\qameta\allure\allure-test-filter\2.25.0\allure-test-filter-2.25.0.jar;C:\Users\sergi\.m2\repository\ch\qos\logback\logback-classic\1.5.6\logback-classic-1.5.6.jar;C:\Users\sergi\.m2\repository\ch\qos\logback\logback-core\1.5.6\logback-core-1.5.6.jar;C:\Users\sergi\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.16.1\jackson-databind-2.16.1.jar;C:\Users\sergi\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.16.1\jackson-annotations-2.16.1.jar;C:\Users\sergi\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.16.1\jackson-core-2.16.1.jar;C:\Users\sergi\.m2\repository\commons-io\commons-io\2.15.1\commons-io-2.15.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -31,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\sergi\AppData\Local\Temp\surefire2288666399628828497\surefirebooter-20260727194945775_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\sergi\AppData\Local\Temp\surefire4842800291679647723\surefirebooter-20260727232211989_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="26.0.1+8-34"/>
@@ -61,104 +61,198 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="70.0"/>
   </properties>
-  <testcase name="runScenario[&quot;Login exitoso con credenciales válidas&quot;, &quot;Login de usuarios en SecureBank&quot;](1)" classname="securebank.runners.TestRunner" time="2.037">
+  <testcase name="runScenario[&quot;Login API exitoso&quot;, &quot;API de SecureBank&quot;](1)" classname="securebank.runners.TestRunner" time="2.886">
+    <failure message="expected [200] but found [401]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [200] but found [401]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:1419)
+	at org.testng.Assert.assertEquals(Assert.java:1383)
+	at org.testng.Assert.assertEquals(Assert.java:1429)
+	at securebank.stepdefinitions.ApiSteps.verifyStatus(ApiSteps.java:21)
+	at ✽.recibo status 200(file:///D:/PROYECTOS/securebank-test-framework/src/test/resources/features/api.feature:11)
+]]></failure>
+    <system-out><![CDATA[
+@api @regression @smoke @login
+Escenario: Login API exitoso                 # src/test/resources/features/api.feature:9
+2026-07-27 23:22:13.324 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 150.0.7871.124 (resolved driver for Chrome 150)
+2026-07-27 23:22:13.341 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\sergi\.cache\selenium\chromedriver\win64\150.0.7871.124\chromedriver.exe
+  Cuando envío credenciales válidas a la API # securebank.stepdefinitions.ApiSteps.validLogin()
+  Entonces recibo status 200                 # securebank.stepdefinitions.ApiSteps.verifyStatus(int)
+      java.lang.AssertionError: expected [200] but found [401]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:1419)
+	at org.testng.Assert.assertEquals(Assert.java:1383)
+	at org.testng.Assert.assertEquals(Assert.java:1429)
+	at securebank.stepdefinitions.ApiSteps.verifyStatus(ApiSteps.java:21)
+	at ✽.recibo status 200(file:///D:/PROYECTOS/securebank-test-framework/src/test/resources/features/api.feature:11)
+
+  Y el token de sesión                       # securebank.stepdefinitions.ApiSteps.verifyToken()
+📸 Screenshot guardado: target/screenshots/Login_API_exitoso_20260727_232215.png
+]]></system-out>
+    <system-err><![CDATA[jul 27, 2026 11:22:12 P. M. io.cucumber.core.options.CucumberPropertiesParser lambda$warnWhenCucumberOptionsIsUsed$2
+WARNING: Passing commandline options via the property 'cucumber.options' is no longer supported. Please use individual properties instead. See the java doc on io.cucumber.core.options.Constants for details.
+jul 27, 2026 11:22:14 P. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 150
+jul 27, 2026 11:22:14 P. M. org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 150.0.7871.187. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;API rechaza SQL Injection&quot;, &quot;API de SecureBank&quot;](2)" classname="securebank.runners.TestRunner" time="1.406">
+    <system-out><![CDATA[
+@api @regression @security
+Escenario: API rechaza SQL Injection          # src/test/resources/features/api.feature:15
+2026-07-27 23:22:15.860 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 150.0.7871.124 (resolved driver for Chrome 150)
+2026-07-27 23:22:15.863 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\sergi\.cache\selenium\chromedriver\win64\150.0.7871.124\chromedriver.exe
+  Cuando envío credenciales con SQL Injection # securebank.stepdefinitions.ApiSteps.sqlInjection()
+  Entonces recibo status 401                  # securebank.stepdefinitions.ApiSteps.verifyStatus(int)
+]]></system-out>
+    <system-err><![CDATA[jul 27, 2026 11:22:16 P. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 150
+jul 27, 2026 11:22:16 P. M. org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 150.0.7871.187. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Consulta de saldo API&quot;, &quot;API de SecureBank&quot;](3)" classname="securebank.runners.TestRunner" time="2.175">
+    <failure message="expected [200] but found [401]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [200] but found [401]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:1419)
+	at org.testng.Assert.assertEquals(Assert.java:1383)
+	at org.testng.Assert.assertEquals(Assert.java:1429)
+	at securebank.stepdefinitions.ApiSteps.verifyStatus(ApiSteps.java:21)
+	at ✽.recibo status 200(file:///D:/PROYECTOS/securebank-test-framework/src/test/resources/features/api.feature:23)
+]]></failure>
+    <system-out><![CDATA[
+@api @regression @balance
+Escenario: Consulta de saldo API       # src/test/resources/features/api.feature:20
+2026-07-27 23:22:17.268 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 150.0.7871.124 (resolved driver for Chrome 150)
+2026-07-27 23:22:17.272 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\sergi\.cache\selenium\chromedriver\win64\150.0.7871.124\chromedriver.exe
+  Dado que estoy autenticado en la API # securebank.stepdefinitions.ApiSteps.authenticated()
+  Cuando consulto mi saldo             # securebank.stepdefinitions.ApiSteps.checkBalance()
+  Entonces recibo status 200           # securebank.stepdefinitions.ApiSteps.verifyStatus(int)
+      java.lang.AssertionError: expected [200] but found [401]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:1419)
+	at org.testng.Assert.assertEquals(Assert.java:1383)
+	at org.testng.Assert.assertEquals(Assert.java:1429)
+	at securebank.stepdefinitions.ApiSteps.verifyStatus(ApiSteps.java:21)
+	at ✽.recibo status 200(file:///D:/PROYECTOS/securebank-test-framework/src/test/resources/features/api.feature:23)
+
+  Y el saldo es mayor a 0              # securebank.stepdefinitions.ApiSteps.verifyBalance(int)
+📸 Screenshot guardado: target/screenshots/Consulta_de_saldo_API_20260727_232219.png
+]]></system-out>
+    <system-err><![CDATA[jul 27, 2026 11:22:17 P. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 150
+jul 27, 2026 11:22:17 P. M. org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 150.0.7871.187. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Login exitoso con credenciales válidas&quot;, &quot;Login de usuarios en SecureBank&quot;](4)" classname="securebank.runners.TestRunner" time="1.21">
     <system-out><![CDATA[
 @regression @smoke @happy-path
 Escenario: Login exitoso con credenciales válidas                          # src/test/resources/features/login.feature:9
-2026-07-27 19:49:47.221 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 149.0.7827.155 (resolved driver for Chrome 149)
-2026-07-27 19:49:47.234 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\sergi\.cache\selenium\chromedriver\win64\149.0.7827.155\chromedriver.exe
+2026-07-27 23:22:19.448 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 150.0.7871.124 (resolved driver for Chrome 150)
+2026-07-27 23:22:19.452 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\sergi\.cache\selenium\chromedriver\win64\150.0.7871.124\chromedriver.exe
   Dado que el usuario está en la página de login                           # securebank.stepdefinitions.LoginSteps.openLoginPage()
   Cuando ingresa el usuario "standard_user" y la contraseña "secret_sauce" # securebank.stepdefinitions.LoginSteps.enterCredentials(java.lang.String,java.lang.String)
   Entonces debería ver la página de inventario                             # securebank.stepdefinitions.LoginSteps.verifyInventoryPage()
   Y el título debería ser "Products"                                       # securebank.stepdefinitions.LoginSteps.verifyTitle(java.lang.String)
 ]]></system-out>
-    <system-err><![CDATA[jul 27, 2026 7:49:46 P. M. io.cucumber.core.options.CucumberPropertiesParser lambda$warnWhenCucumberOptionsIsUsed$2
-WARNING: Passing commandline options via the property 'cucumber.options' is no longer supported. Please use individual properties instead. See the java doc on io.cucumber.core.options.Constants for details.
-jul 27, 2026 7:49:48 P. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[jul 27, 2026 11:22:20 P. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 150
-jul 27, 2026 7:49:48 P. M. org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+jul 27, 2026 11:22:20 P. M. org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 150.0.7871.187. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;Login fallido con usuario bloqueado&quot;, &quot;Login de usuarios en SecureBank&quot;](2)" classname="securebank.runners.TestRunner" time="1.16">
+  <testcase name="runScenario[&quot;Login fallido con usuario bloqueado&quot;, &quot;Login de usuarios en SecureBank&quot;](5)" classname="securebank.runners.TestRunner" time="1.198">
     <system-out><![CDATA[
 @regression @negative
 Escenario: Login fallido con usuario bloqueado                               # src/test/resources/features/login.feature:16
-2026-07-27 19:49:48.875 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 149.0.7827.155 (resolved driver for Chrome 149)
-2026-07-27 19:49:48.879 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\sergi\.cache\selenium\chromedriver\win64\149.0.7827.155\chromedriver.exe
+2026-07-27 23:22:20.656 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 150.0.7871.124 (resolved driver for Chrome 150)
+2026-07-27 23:22:20.659 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\sergi\.cache\selenium\chromedriver\win64\150.0.7871.124\chromedriver.exe
   Dado que el usuario está en la página de login                             # securebank.stepdefinitions.LoginSteps.openLoginPage()
   Cuando ingresa el usuario "locked_out_user" y la contraseña "secret_sauce" # securebank.stepdefinitions.LoginSteps.enterCredentials(java.lang.String,java.lang.String)
   Entonces debería ver un mensaje de error                                   # securebank.stepdefinitions.LoginSteps.verifyErrorMessage()
   Y el mensaje debería contener "locked out"                                 # securebank.stepdefinitions.LoginSteps.verifyErrorContains(java.lang.String)
 ]]></system-out>
-    <system-err><![CDATA[jul 27, 2026 7:49:49 P. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[jul 27, 2026 11:22:21 P. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 150
-jul 27, 2026 7:49:49 P. M. org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+jul 27, 2026 11:22:21 P. M. org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 150.0.7871.187. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;Intento de SQL Injection en el login&quot;, &quot;Login de usuarios en SecureBank&quot;](3)" classname="securebank.runners.TestRunner" time="1.206">
+  <testcase name="runScenario[&quot;Intento de SQL Injection en el login&quot;, &quot;Login de usuarios en SecureBank&quot;](6)" classname="securebank.runners.TestRunner" time="1.128">
     <system-out><![CDATA[
 @regression @security
 Escenario: Intento de SQL Injection en el login                        # src/test/resources/features/login.feature:23
-2026-07-27 19:49:50.035 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 149.0.7827.155 (resolved driver for Chrome 149)
-2026-07-27 19:49:50.038 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\sergi\.cache\selenium\chromedriver\win64\149.0.7827.155\chromedriver.exe
+2026-07-27 23:22:21.852 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 150.0.7871.124 (resolved driver for Chrome 150)
+2026-07-27 23:22:21.855 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\sergi\.cache\selenium\chromedriver\win64\150.0.7871.124\chromedriver.exe
   Dado que el usuario está en la página de login                       # securebank.stepdefinitions.LoginSteps.openLoginPage()
   Cuando ingresa el usuario "' OR '1'='1" y la contraseña "cualquiera" # securebank.stepdefinitions.LoginSteps.enterCredentials(java.lang.String,java.lang.String)
   Entonces debería ver un mensaje de error                             # securebank.stepdefinitions.LoginSteps.verifyErrorMessage()
   Y NO debería estar autenticado                                       # securebank.stepdefinitions.LoginSteps.verifyNotAuthenticated()
 ]]></system-out>
-    <system-err><![CDATA[jul 27, 2026 7:49:50 P. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[jul 27, 2026 11:22:22 P. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 150
-jul 27, 2026 7:49:50 P. M. org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+jul 27, 2026 11:22:22 P. M. org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 150.0.7871.187. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;Validar múltiples credenciales&quot;, &quot;Login de usuarios en SecureBank&quot;](4)" classname="securebank.runners.TestRunner" time="1.17">
+  <testcase name="runScenario[&quot;Validar múltiples credenciales&quot;, &quot;Login de usuarios en SecureBank&quot;](7)" classname="securebank.runners.TestRunner" time="1.143">
     <system-out><![CDATA[
 @regression @data-driven
 Esquema del escenario: Validar múltiples credenciales                      # src/test/resources/features/login.feature:37
-2026-07-27 19:49:51.239 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 149.0.7827.155 (resolved driver for Chrome 149)
-2026-07-27 19:49:51.242 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\sergi\.cache\selenium\chromedriver\win64\149.0.7827.155\chromedriver.exe
+2026-07-27 23:22:22.977 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 150.0.7871.124 (resolved driver for Chrome 150)
+2026-07-27 23:22:22.979 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\sergi\.cache\selenium\chromedriver\win64\150.0.7871.124\chromedriver.exe
   Dado que el usuario está en la página de login                           # securebank.stepdefinitions.LoginSteps.openLoginPage()
   Cuando ingresa el usuario "standard_user" y la contraseña "secret_sauce" # securebank.stepdefinitions.LoginSteps.enterCredentials(java.lang.String,java.lang.String)
   Entonces debería ver "la página de inventario"                           # securebank.stepdefinitions.LoginSteps.shouldSee(java.lang.String)
 ]]></system-out>
-    <system-err><![CDATA[jul 27, 2026 7:49:51 P. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[jul 27, 2026 11:22:23 P. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 150
-jul 27, 2026 7:49:51 P. M. org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+jul 27, 2026 11:22:23 P. M. org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 150.0.7871.187. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;Validar múltiples credenciales&quot;, &quot;Login de usuarios en SecureBank&quot;](5)" classname="securebank.runners.TestRunner" time="1.152">
+  <testcase name="runScenario[&quot;Validar múltiples credenciales&quot;, &quot;Login de usuarios en SecureBank&quot;](8)" classname="securebank.runners.TestRunner" time="1.129">
     <system-out><![CDATA[
 @regression @data-driven
 Esquema del escenario: Validar múltiples credenciales                        # src/test/resources/features/login.feature:38
-2026-07-27 19:49:52.412 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 149.0.7827.155 (resolved driver for Chrome 149)
-2026-07-27 19:49:52.415 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\sergi\.cache\selenium\chromedriver\win64\149.0.7827.155\chromedriver.exe
+2026-07-27 23:22:24.122 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 150.0.7871.124 (resolved driver for Chrome 150)
+2026-07-27 23:22:24.124 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\sergi\.cache\selenium\chromedriver\win64\150.0.7871.124\chromedriver.exe
   Dado que el usuario está en la página de login                             # securebank.stepdefinitions.LoginSteps.openLoginPage()
   Cuando ingresa el usuario "locked_out_user" y la contraseña "secret_sauce" # securebank.stepdefinitions.LoginSteps.enterCredentials(java.lang.String,java.lang.String)
   Entonces debería ver "un mensaje de error"                                 # securebank.stepdefinitions.LoginSteps.shouldSee(java.lang.String)
 ]]></system-out>
-    <system-err><![CDATA[jul 27, 2026 7:49:53 P. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[jul 27, 2026 11:22:24 P. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 150
-jul 27, 2026 7:49:53 P. M. org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+jul 27, 2026 11:22:24 P. M. org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 150.0.7871.187. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;Validar múltiples credenciales&quot;, &quot;Login de usuarios en SecureBank&quot;](6)" classname="securebank.runners.TestRunner" time="1.179">
+  <testcase name="runScenario[&quot;Validar múltiples credenciales&quot;, &quot;Login de usuarios en SecureBank&quot;](9)" classname="securebank.runners.TestRunner" time="1.119">
     <system-out><![CDATA[
 @regression @data-driven
 Esquema del escenario: Validar múltiples credenciales                     # src/test/resources/features/login.feature:39
-2026-07-27 19:49:53.563 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 149.0.7827.155 (resolved driver for Chrome 149)
-2026-07-27 19:49:53.565 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\sergi\.cache\selenium\chromedriver\win64\149.0.7827.155\chromedriver.exe
+2026-07-27 23:22:25.254 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Using chromedriver 150.0.7871.124 (resolved driver for Chrome 150)
+2026-07-27 23:22:25.256 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\sergi\.cache\selenium\chromedriver\win64\150.0.7871.124\chromedriver.exe
   Dado que el usuario está en la página de login                          # securebank.stepdefinitions.LoginSteps.openLoginPage()
   Cuando ingresa el usuario "problem_user" y la contraseña "secret_sauce" # securebank.stepdefinitions.LoginSteps.enterCredentials(java.lang.String,java.lang.String)
   Entonces debería ver "la página de inventario"                          # securebank.stepdefinitions.LoginSteps.shouldSee(java.lang.String)
 ]]></system-out>
-    <system-err><![CDATA[jul 27, 2026 7:49:54 P. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[jul 27, 2026 11:22:25 P. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 150
-jul 27, 2026 7:49:54 P. M. org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+jul 27, 2026 11:22:25 P. M. org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
 WARNING: Unable to find version of CDP to use for 150.0.7871.187. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.18.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
