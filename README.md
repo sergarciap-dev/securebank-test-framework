@@ -1,4 +1,6 @@
-# securebank-test-framework# 🏦 SecureBank Test Automation Framework
+# 🏦 SecureBank Test Automation Framework
+
+[![CI Pipeline](https://github.com/sergarciap-dev/securebank-test-framework/actions/workflows/ci.yml/badge.svg)](https://github.com/sergarciap-dev/securebank-test-framework/actions/workflows/ci.yml)
 
 > Framework de automatización de pruebas funcional, API y seguridad para una aplicación bancaria.
 
@@ -23,7 +25,7 @@ Demostrar un framework enterprise-grade que cubre:
 | Lenguaje | Java 17 |
 | UI Automation | Selenium WebDriver 4.18 |
 | BDD | Cucumber 7.15 (Gherkin en español) |
-| API Testing | REST Assured 5.4 |
+| API Testing | REST ASSURED 5.4 |
 | Build | Maven |
 | CI/CD | Jenkins / GitHub Actions |
 | Contenedores | Docker + Docker Compose |
