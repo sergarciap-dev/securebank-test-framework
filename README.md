@@ -33,8 +33,6 @@ Demostrar un framework enterprise-grade que cubre:
 | Logging | Logback |
 
 ## 📂 Estructura
-
-## 📂 Estructura
 ```
 securebank-test-framework/
 ├── src/
