@@ -33,3 +33,34 @@ Demostrar un framework enterprise-grade que cubre:
 | Logging | Logback |
 
 ## 📂 Estructura
+
+## 📂 Estructura
+```
+securebank-test-framework/
+├── src/
+│   ├── main/
+│   │   ├── java/securebank/
+│   │   │   ├── config/             → ConfigManager
+│   │   │   ├── utils/              → DriverManager
+│   │   │   └── pages/              → LoginPage, InventoryPage, BasePage
+│   │   └── resources/
+│   │       └── app/                → App mock (opcional)
+│   └── test/
+│       ├── java/securebank/
+│       │   ├── hooks/              → Setup/Teardown (Hooks.java)
+│       │   ├── runners/            → TestRunner.java
+│       │   └── stepdefinitions/    → LoginSteps.java
+│       └── resources/
+│           ├── features/           → login.feature (Gherkin)
+│           ├── config.properties   → Configuración
+│           └── logback.xml         → Logging
+├── .github/
+│   └── workflows/
+│       └── ci.yml                  → GitHub Actions CI/CD
+├── docker-compose.yml              → Selenium Grid + PostgreSQL
+├── Jenkinsfile                     → Pipeline alternativo
+├── pom.xml                         → Dependencias Maven
+├── README.md
+└── .gitignore
+```
+
